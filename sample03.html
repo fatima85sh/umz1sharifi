@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دیجی کالا</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:rgb(171, 171, 171);
+        }
+        .form {
+             background-color: #fff;
+             padding: 20px;
+             border: 1px solid;
+             border-color: #000000;
+        }
+        .product{
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            height: 170px;
+        }
+        .text{
+            flex: 4;
+            direction: rtl;
+            margin-right: 40px;
+        }
+        .circle{
+            margin-right: 10px;
+            margin-left: 2px;
+            margin-top: 10px;
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+            border-radius: 50%;
+        }
+        .image{
+            flex: 1;
+            float: left;
+            margin-right:-50px;
+        }
+        p{
+            direction: rtl;
+            margin-right: 65px;
+        }
+        .img{
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="form">
+        <p>سبد خرید شما</p>
+        <div class="product">
+            <div class="text">
+                <div class="type">  لپ تاپ 15.6 اینچی ایسوس مدل Vivobook x 1502za-EJ1429-i7 12700H 16GB 512SSd کاستوم شده</div>
+                <div class="color"><span class="circle" style="background-color: #616161;"></span>نقره ای </div>
+            </div>
+            <div class="image">
+                <div class="img"><img src="image/محصول.jpg" alt="لپ تاپ" style="width: 100px; height: 100px;"></div>
+                <div class="price">42,299,000 تومان</div>
+            </div>
+        </div>
+        <hr>
+        <div class="product">
+            <div class="text">
+                <div class="type">  لپ تاپ 15.6 اینچی لنوو مدل V15 G4 AMN-Athlon Silver 7120U-8GB LPDDR5-256GB SSD-TN</div>
+                <div class="color"><span class="circle" style="background-color: #000000;"></span>مشکی </div>
+            </div>
+            <div class="image">
+                <div class="img"><img src="image/محصول2.jpg" alt="لپ تاپ"style="width: 100px; height: 100px;" ></div>
+                <div class="price"> 22,500,000 تومان</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
